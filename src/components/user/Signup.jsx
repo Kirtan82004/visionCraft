@@ -69,7 +69,7 @@ const UserSignup = () => {
             onChange={handleChange}
           />
           <Input
-            label="Address"
+            label="secretKey"
             type="text"
             name="secretKey"
             placeholder="Enter your address"

@@ -16,7 +16,7 @@ const UserSignup = () => {
     password: '',
     confirmPassword: '',
     phoneNo: '',
-    address: '',
+    secretKey: '',
   });
 
   const handleChange = (e) => {
@@ -71,9 +71,9 @@ const UserSignup = () => {
           <Input
             label="Address"
             type="text"
-            name="address"
+            name="secretKey"
             placeholder="Enter your address"
-            value={formData.address}
+            value={formData.secretKey}
             onChange={handleChange}
           />
           <Input
